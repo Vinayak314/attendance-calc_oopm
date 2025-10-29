@@ -77,16 +77,16 @@ public class AttendanceCalculatorGUI extends JFrame {
         panel.add(idField, gbc);
         
         gbc.gridx = 0; gbc.gridy = 2;
-        panel.add(new JLabel("Total Classes:"), gbc);
-        gbc.gridx = 1;
-        totalClassesField = new JTextField(15);
-        panel.add(totalClassesField, gbc);
-        
-        gbc.gridx = 0; gbc.gridy = 3;
         panel.add(new JLabel("Attended Classes:"), gbc);
         gbc.gridx = 1;
         attendedClassesField = new JTextField(15);
         panel.add(attendedClassesField, gbc);
+        
+        gbc.gridx = 0; gbc.gridy = 3;
+        panel.add(new JLabel("Total Classes:"), gbc);
+        gbc.gridx = 1;
+        totalClassesField = new JTextField(15);
+        panel.add(totalClassesField, gbc);
         
         return panel;
     }
