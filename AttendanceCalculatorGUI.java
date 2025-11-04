@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AttendanceCalculatorGUI extends JFrame {
+public final class AttendanceCalculatorGUI extends JFrame {
     private JTextField nameField;
     private JTextField idField;
     private JTextField totalClassesField;
